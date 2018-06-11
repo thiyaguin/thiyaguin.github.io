@@ -1,9 +1,5 @@
 ---
 title: "Configure IIS and Apache Webserver to prevent Clickjacking"
-categories:
-  - Application Server
-  - Middleware
-  - Server Admin
 tags:
   - Apache
   - clickjack
