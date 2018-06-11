@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "Thiyagarajan K"
-title_separator          : "IT Infrastructure Engineer"
+title_separator          : "-"
 name                     : "Thiyagarajan K"
 description              : "IT Infrastructure Engineer"
 url                      : "https://thiyagu.in"
@@ -100,12 +100,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Thiyagarajan Karuppaiah"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
+  bio              : "IT Infrastructure Engineer"
+  location         : "Tamilnadu, India"
+  email            : "contact@thiyagu.in"
+  uri              : "http://thiyagu.in"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
@@ -125,7 +125,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "2mrt"
   vine             :
   weibo            :
   xing             :
