@@ -45,4 +45,4 @@ To configure Apache:
         Header always append X-Frame-Options SAMEORIGIN
         
 2. Save the conf file
-3. Restart the apache
+3. Restart the Apache
