@@ -1,5 +1,4 @@
 ---
-layout: post
 title: WebSphere Application Server to API certificate based authentication
 ---
 There are times, you wanted to authenticate to APIs from your application using SSL Certificate. Below the steps to achieve the same when you are using WebSphere as application server.
