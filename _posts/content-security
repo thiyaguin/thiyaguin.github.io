@@ -1,1 +1,16 @@
 
+---
+title: "Content Security"
+tags:
+  - Apache
+  - clickjack
+  - clickjacking
+  - header
+  - HTTPD
+  - Nginx
+  - SameOrigin
+  - security
+  - X-Frame
+  - Logstash
+  - ELK
+---
