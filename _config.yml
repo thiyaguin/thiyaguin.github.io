@@ -100,8 +100,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Thiyagarajan Karuppaiah"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : ""
+  avatar           : "/assets/Thiyagarajan-k.jpg"
   bio              : "IT Infrastructure Engineer"
   location         : "Tamilnadu, India"
   email            : "contact@thiyagu.in"
