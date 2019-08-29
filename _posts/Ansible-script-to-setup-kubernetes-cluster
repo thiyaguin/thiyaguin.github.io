@@ -1,1 +1,14 @@
 # Ansible script to setup kubernetes cluster
+
+Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications. 
+
+
+
+Kubernetes Master Node: The Kubernetes master is responsible for maintaining the desired state for Kubernetes cluster. 
+
+Kubernetes Worker Node: The nodes in a cluster are the machines (VMs, physical servers, etc) that run the applications and cloud workflows. 
+The Kubernetes master controls each worker node.
+
+
+Ansible is an open-source software provisioning, configuration management, and application-deployment tool. 
+It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows.
