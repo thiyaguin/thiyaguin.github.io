@@ -30,18 +30,32 @@ Clone the repository
  
  ``` git clone https://github.com/thiyaguin/Ansible-kubernetes-cluster.git ```
  
-#### step 2
+#### Step 2
  
 Update the Ansible-kubernetes-cluster\hosts file with IP addresses of Master and workers nodes
  
-#### step 3 
+#### Step 3 
 
 Update the CreateK8SCluster.yml - iprange section with IP CIDR block
  
-#### step 4 
+#### Step 4 
 
 Run the play book 
  
  ``` ansible-playbook -i hosts CreateK8SCluster.yml ```
+ 
+ The play book will create user k8admin and enable password less access between other servers. This user will be used to run the cluster 
+ 
+ #### Step 5 
+ 
+ To Validate the cluster ssh to the Master node and run the following commands
+ 
+ ``` sudo su kadmin ```
+ ``` kubectl get node ```
+ 
+The command will return all the nodes informations
+
+You can start deploying the application in the cluster. To know more about deploying application follow https://kubernetes.io/docs/home/
+ 
  
  
