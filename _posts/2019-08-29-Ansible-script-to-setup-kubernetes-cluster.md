@@ -1,6 +1,6 @@
 ---
 category: kubernetes
-tags: Ansible, kubernetes, k8s, kubernetes Cluster
+tags: Ansible,kubernetes,k8s,kubernetes Cluster
 title: Ansible script to setup kubernetes cluster
 ---
 Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications. 
