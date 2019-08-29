@@ -2,7 +2,7 @@
 
 Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications. 
 
-
+![Image of Yaktocat](https://miro.medium.com/max/1516/1*t5TbINIv1vbTYCTraPy16g.png)
 
 Kubernetes Master Node: The Kubernetes master is responsible for maintaining the desired state for Kubernetes cluster. 
 
