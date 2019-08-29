@@ -11,7 +11,7 @@ tags:
   - security
   - X-Frame
 ---
-lickjacking, also known as a “UI redress attack”, is when an attacker uses multiple transparent to trick a user into clicking on a button or link on another page when they were intending to click on the the top level page. Thus, the attacker is “hijacking” clicks meant for their page and routing them to another page, most likely owned by another application, domain, or both.
+Clickjacking, also known as a “UI redress attack”, is when an attacker uses multiple transparent to trick a user into clicking on a button or link on another page when they were intending to click on the the top level page. Thus, the attacker is “hijacking” clicks meant for their page and routing them to another page, most likely owned by another application, domain, or both.
 
 To prevent clickjacking, configure the below in your web server.
 
