@@ -35,7 +35,7 @@ Clone the repository
  
 #### Step 2
  
-Update the Ansible-kubernetes-cluster\hosts file with IP addresses of Master and workers nodes
+Update the Ansible-kubernetes-cluster/hosts file with IP addresses of Master and workers nodes
  
 #### Step 3 
 
