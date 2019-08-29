@@ -55,6 +55,8 @@ Run the play book
  
 The command will return all the nodes informations
 
+#### Thank you 
+
 You can start deploying the application in the cluster. To know more about deploying application follow https://kubernetes.io/docs/home/
  
  
