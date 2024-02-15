@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Thiyagarajan Karuppaiah"
 title_separator          : "-"
 name                     : "Thiyagarajan K"
-description              : "IT Infrastructure Engineer"
+description              : "Principal Cloud Architect"
 url                      : "https://thiyagu.in"
 baseurl                  : #"/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,9 +102,9 @@ analytics:
 author:
   name             : ""
   avatar           : "/assets/k-thiyagarajan.JPG"
-  bio              : "IT Infrastructure Engineer"
+  bio              : "Principal Cloud Architect"
   location         : "Tamilnadu, India"
-  email            : "contact@thiyagu.in"
+  email            : "thiyagarajan.karuppaiah@gmail.com"
   uri              : "http://thiyagu.in"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -119,7 +119,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "2thiyagu" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
