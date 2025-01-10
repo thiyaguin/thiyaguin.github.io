@@ -16,3 +16,5 @@ Why secret scanning is important:
 2. Compliance: Many organizations have compliance requirements that mandate the protection of sensitive data.
 3. Early Detection: Scanning for secrets early in the CI pipeline helps catch issues before they make it to production.
 4. Faster Time to Market through Accelerated Releases: Automated secret scanning ensures that security checks do not become bottlenecks in the release process, allowing for faster and more frequent releases.
+
+Gitleaks is an open-source tool - inspects Git repositories for potential leaks of sensitive information. This includes passwords, API keys, and other confidential data. GitLeaks scans the code repository for files that match a set of predefined patterns. These patterns are designed to match various types of sensitive information, such as passwords, secrets, key files, etc. Once GitLeaks finds a match, it alerts, and we can take action to remove the sensitive information.
