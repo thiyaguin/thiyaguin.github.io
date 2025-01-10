@@ -37,5 +37,5 @@ Rapid Replication & Recreation: Leverage IaC to enable the rapid replication and
   * Leveraging Cost-Effective Pricing Models: Reserve and commit hardware and software
   * Utilize cloud cost management tools: Monitor cloud spending, identify cost anomalies, and track trends.
 
- ## Conclusion 
- By establishing a well-defined cloud architecture framework, organizations can achieve agility, scalability, cost optimization, enhanced security, sustainability, and improved reliability in their cloud deployments
+## Conclusion 
+By establishing a well-defined cloud architecture framework, organizations can achieve agility, scalability, cost optimization, enhanced security, sustainability, and improved reliability in their cloud deployments
