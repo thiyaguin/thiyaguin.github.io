@@ -10,8 +10,6 @@ tags:
   - Cloud Operations
   - Keys
 ---
-The Importance of Secret Scanning in Code Repositories
-
 Maintaining the security of our code is paramount, and a critical aspect of that security is the proper management and protection of secrets like API keys, keyfiles, passwords, and tokens. Accidentally committing these secrets to your code repository can have serious consequences.
 
 ## Why Secret Scanning is Essential
