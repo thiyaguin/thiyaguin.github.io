@@ -29,6 +29,8 @@ Git hooks are scripts that Git runs before or after certain events like committi
 
 Pre-commit hooks are scripts that run automatically before a commit is finalized within a Git repository, which are versatile and can be customized to perform various tasks, such as code linting, running tests, or checking for specific patterns in committed code.
 
+[Gitleaks as pre-commit hook](https://github.com/gitleaks/gitleaks?tab=readme-ov-file#pre-commit):
+
 ![Pre Commit Hook](/assets/precommit.png)
 
 In CI/CD pipeline: 
