@@ -21,7 +21,7 @@ Why secret scanning is important:
 
 Gitleaks is an open-source tool - inspects Git repositories for potential leaks of sensitive information. It scans the code repository for files that match a set of predefined patterns. These patterns are designed to match various types of sensitive information, such as passwords, secrets, key files, etc. Once GitLeaks finds a match, it alerts, and we can take action to remove the sensitive information.
 
-#### Using Gitleaks 
+## Using Gitleaks 
 
 In pre-commit hooks:
 
