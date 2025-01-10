@@ -20,3 +20,13 @@ Why secret scanning is important:
 4. Faster Time to Market through Accelerated Releases: Automated secret scanning ensures that security checks do not become bottlenecks in the release process, allowing for faster and more frequent releases.
 
 Gitleaks is an open-source tool - inspects Git repositories for potential leaks of sensitive information. It scans the code repository for files that match a set of predefined patterns. These patterns are designed to match various types of sensitive information, such as passwords, secrets, key files, etc. Once GitLeaks finds a match, it alerts, and we can take action to remove the sensitive information.
+
+#### Using Gitleaks 
+
+In pre-commit hooks:
+
+Git hooks are scripts that Git runs before or after certain events like committing, pushing, or merging code.
+
+Pre-commit hooks are scripts that run automatically before a commit is finalized within a Git repository, which are versatile and can be customized to perform various tasks, such as code linting, running tests, or checking for specific patterns in committed code.
+
+
