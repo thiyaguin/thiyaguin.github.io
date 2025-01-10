@@ -1,5 +1,5 @@
 ---
-title: "Detecting secrets in Repos"
+title: "Detecting secrets in Source Code"
 tags:
   - Git
   - GitLeaks
