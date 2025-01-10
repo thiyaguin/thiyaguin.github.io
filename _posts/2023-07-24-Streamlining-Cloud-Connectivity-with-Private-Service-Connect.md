@@ -1,5 +1,5 @@
 ---
-title: "Expose services secure and private using Google Cloud Private Service Connect"
+title: "Securely Expose Services Privately with Private Service Connect"
 tags:
   - Google Cloud
   - Hybrid Cloud
