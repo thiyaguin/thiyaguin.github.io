@@ -10,7 +10,7 @@ tags:
   - Google Cloud
   - AWS
 ---
-A robust cloud architecture framework is essential for organizations seeking to maximize the benefits of cloud computing. By prioritizing ssecurity, scalability, high availability, and optimization businesses can build resilient, scalable and cost-effective cloud solutions.
+A robust cloud architecture framework is essential for organizations seeking to maximize the benefits of cloud computing. By prioritizing security, scalability, high availability, and optimization, businesses can build resilient, scalable and cost-effective cloud solutions.
 
 ## Considerations in Cloud Architecture
 
