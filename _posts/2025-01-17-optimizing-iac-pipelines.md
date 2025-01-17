@@ -51,9 +51,10 @@ This rigorous approach serves multiple purposes:
 * **Configuration Validation:** It ensures the validity and consistency of the configuration with the desired state, guaranteeing adherence to best practices and established conventions.
 * **Enhanced Collaboration:** It fosters collaboration and transparency by facilitating the sharing of the plan with team members and stakeholders, ensuring collective approval before implementation.
 
-** Best Practices: **
+**Best Practice:**
+
 * **Dedicated Service Accounts:** Utilize dedicated service accounts for both ``` terraform plan ``` (read-only) and ``` terraform apply ``` (read-write) operations.
 * **Read-Only for Planning:** Employ the read-only service account exclusively for creating the Terraform plan, mitigating the risk of misuse within the CI/CD pipeline.
-* Approver Integration:** Integrate approvers within the pipeline to restrict the usage of the privileged service account to designated individuals, ensuring secure and controlled access.
+* **Approver Integration:** Integrate approvers within the pipeline to restrict the usage of the privileged service account to designated individuals, ensuring secure and controlled access.
 
 Spread the word! Like, clap, and share!
