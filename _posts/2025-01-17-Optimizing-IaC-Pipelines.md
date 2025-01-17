@@ -1,3 +1,18 @@
+---
+title: "Optimizing IaC Pipelines"
+tags:
+  - Google Cloud
+  - Hybrid Cloud
+  - Security
+  - Terraform
+  - Checkov
+  - CI/CD
+  - Pipeline
+  - TFlint
+  - IaC
+  - Infrastructure as Code 
+---
+
 Even minor code modifications can have significant repercussions within the deployed environment. When multiple teams collaborate on shared solutions, rigorous validation of all changes is paramount to ensure the integrity and stability of the deployment environments.
 
 CI/CD pipelines empower teams to perform comprehensive validation through automated code quality checks and testing. 
