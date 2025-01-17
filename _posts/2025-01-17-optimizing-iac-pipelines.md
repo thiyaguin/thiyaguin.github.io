@@ -16,11 +16,11 @@ CI/CD empowers developers to confidently and rapidly deliver code changes to pro
 
 ##  IaC validation strategy
 
-Linting 
+### Linting 
 
 The integration of code linting and validation tools into IaC pipelines facilitates the early detection and resolution of code defects. Furthermore, the linting process serves as a mechanism to enforce organizational coding standards and best practices
 
-Suggested tool: tflint — https://github.com/terraform-linters/tflint
+Suggested tool: [tflint](https://github.com/terraform-linters/tflint)
 
 TFLint is a framework and each feature is provided by plugins, the key features are as follows:
 Find possible errors (like invalid instance types) for Major Cloud providers (AWS/Azure/GCP).
@@ -28,21 +28,21 @@ Warn about deprecated syntax, unused declarations.
 Enforce best practices, naming conventions.
 
 
-Secrets Scanning
+### Secrets Scanning
 
 Maintaining the security of our code is paramount, and a critical aspect of that security is the proper management and protection of secrets like API keys, keyfiles, passwords, and tokens. Accidentally committing these secrets to your code repository can have serious consequences
 
-Suggested Tool: gitleaks - https://github.com/gitleaks/gitleaks
+Suggested Tool: [gitleaks](https://github.com/gitleaks/gitleaks)
 
-Read more about gitleaks in my another post - https://thiyagu.in/detecting-secrets-in-repos/
+For further insights into Gitleaks, please refer to my other [post](https://thiyagu.in/detecting-secrets-in-repos)
 
-## Compliance and Security:
+### Compliance and Security:
 
 Static Code Analysis enables the identification and assessment of vulnerabilities and security flaws within the codebase without requiring a runtime environment or exposing production systems to risk. This comprehensive testing approach facilitates exhaustive code examination.
 
-Suggested tool: Checkov by Prisma Cloud - https://www.checkov.io/
+Suggested tool: [Checkov by Prisma Cloud](https://www.checkov.io/)
 
-## Terraform Plan & Apply
+### Terraform Plan & Apply
 
 Before applying any Terraform changes, it is imperative to execute a ``` terraform plan ```. This plan must undergo a dual review process (four-eyes principle) by two individuals before proceeding with terraform apply.
 This rigorous approach serves multiple purposes:
@@ -52,7 +52,7 @@ This rigorous approach serves multiple purposes:
 * **Enhanced Collaboration:** It fosters collaboration and transparency by facilitating the sharing of the plan with team members and stakeholders, ensuring collective approval before implementation.
 
 ** Best Practices: **
-* **Dedicated Service Accounts:** Utilize dedicated service accounts for both terraform plan (read-only) and terraform apply (read-write) operations.
+* **Dedicated Service Accounts:** Utilize dedicated service accounts for both ``` terraform plan ``` (read-only) and ``` terraform apply ``` (read-write) operations.
 * **Read-Only for Planning:** Employ the read-only service account exclusively for creating the Terraform plan, mitigating the risk of misuse within the CI/CD pipeline.
 * Approver Integration:** Integrate approvers within the pipeline to restrict the usage of the privileged service account to designated individuals, ensuring secure and controlled access.
 
