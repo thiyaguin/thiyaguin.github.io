@@ -1,10 +1,6 @@
-Optimizing IaC Pipelines
-
 Even minor code modifications can have significant repercussions within the deployed environment. When multiple teams collaborate on shared solutions, rigorous validation of all changes is paramount to ensure the integrity and stability of the deployment environments.
 
-CI/CD pipelines empower teams to perform comprehensive validation through automated code quality checks and testing. Below are key testing types to incorporate into your IaC validation strategy
-
-Before that, 
+CI/CD pipelines empower teams to perform comprehensive validation through automated code quality checks and testing. 
 
 ## What is Infrastructure as Code
 
@@ -18,7 +14,7 @@ Continuous Integration/Continuous Deployment (CI/CD) encompasses the automated p
 
 CI/CD empowers developers to confidently and rapidly deliver code changes to production.
 
-## IaC Validation 
+##  IaC validation strategy
 
 Linting 
 
