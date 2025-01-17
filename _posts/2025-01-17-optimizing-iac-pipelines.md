@@ -14,7 +14,7 @@ Continuous Integration/Continuous Deployment (CI/CD) encompasses the automated p
 
 CI/CD empowers developers to confidently and rapidly deliver code changes to production.
 
-##  IaC validation strategy
+##  IaC validation strategy in CI/CD pipeline
 
 ### Linting 
 
